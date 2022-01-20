@@ -1,0 +1,42 @@
+.adminProductListSection {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  grid-gap: 3rem;
+  background-color: #f5f5f5;
+  padding-right: 2rem;
+}
+
+.adminAllProductList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adminAllProductList .addBtn {
+  background-color: #5AFE3D;
+  padding: 1.3rem 2rem;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.adminAllProductList h4 {
+  color: #484C50;
+}
+
+/* @media (max-width: 800px) {
+  .adminProductListRight {
+    width: 75%;
+  }
+}
+
+@media (max-width: 700px) {
+  .adminProductListRight {
+    width: 67%;
+  }
+}
+
+@media (max-width: 600px) {
+  .adminProductListRight {
+    width: 50%;
+  }
+} */

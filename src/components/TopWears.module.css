@@ -1,0 +1,32 @@
+.topWearsSection {
+  padding-bottom: 7rem;
+}
+
+.topWears {
+  text-align: center;
+  height: 55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topWears h2 {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.topWears p {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.topWears a {
+  text-decoration: none;
+  width: 16rem;
+  margin: 0 auto;
+  background-color: #0ebbef;
+  color: #ffffff;
+  font-weight: 600;
+}

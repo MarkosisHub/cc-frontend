@@ -1,0 +1,90 @@
+.navbarWrapper {
+  background-color: #222222;
+  border-top: 3px solid #0ebbef;
+}
+
+.navbar {
+  color: #262f38;
+  padding: 0 7rem;
+}
+
+.mainNav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.mainNav > li {
+  position: relative;
+}
+
+.mainNav button {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.8rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.mainNav .dropdownNav li {
+  border-bottom: 1px solid #08bcf6;
+  padding: 1rem;
+}
+
+.mainNav .dropdownNav li:last-child {
+  border-bottom: 0;
+}
+
+.mainNav .dropdownNav a {
+  display: block;
+  color: #dbdbdb;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 500;
+  /* padding: 1rem 2rem; */
+}
+
+.dropdownNav {
+  list-style: none;
+  width: 20rem;
+  background-color: #000;
+  position: absolute;
+  top: 4.7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style-type: none;
+}
+
+.dropdownNav li {
+  position: relative;
+}
+
+.dropdownNav li.topsMen:hover .multiDropdownNav,
+.dropdownNav li.topsWomen:hover .multiDropdownNav,
+.dropdownNav li.bottomsMen:hover .multiDropdownNav,
+.dropdownNav li.bottomsWomen:hover .multiDropdownNav,
+.dropdownNav li.jewelryMen:hover .multiDropdownNav,
+.dropdownNav li.jewelryWomen:hover .multiDropdownNav,
+.dropdownNav li.accessoriesMen:hover .multiDropdownNav,
+.dropdownNav li.accessoriesWomen:hover .multiDropdownNav {
+  display: block;
+}
+
+.multiDropdownNav {
+  display: none;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 20rem;
+  width: 20rem;
+  background-color: #222222;
+}
+
+.multiDropdownNav li {
+  border-bottom: 1px solid #08bcf6;
+}
